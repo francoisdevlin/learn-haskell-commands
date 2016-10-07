@@ -1,0 +1,9 @@
+eval $(docker-machine env)
+clear
+!docker run -it --rm haskell-test-2
+!:!clear
+!2 + 2
+!2 - 2
+!2 * 2
+!2 / 2
+!:quit
