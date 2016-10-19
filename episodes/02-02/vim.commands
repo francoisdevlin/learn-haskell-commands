@@ -1,0 +1,12 @@
+!git clone git@github.com:francoisdevlin/learn-haskell.git
+!cd learn-haskell
+!vim 
+!:e episodes/02-02/baby-0.hs
+!:e episodes/02-02/baby-1.hs
+!:e episodes/02-02/baby-2.hs
+!:e episodes/02-02/baby-3.hs
+!:e episodes/02-02/baby-4.hs
+!:e episodes/02-02/baby-5.hs
+!:q
+!cd ..
+!rm -rf learn-haskell
