@@ -1,6 +1,6 @@
 eval $(docker-machine env)
 clear
-!docker run -it --rm -w /root/episodes/02-02 devlinsf/learn-haskell
+!docker run -it --rm --workdir /root/episodes/02-02 devlinsf/learn-haskell
 !:l baby-0
 !doubleMe 9  
 !doubleMe 8.3  
